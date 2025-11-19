@@ -1,6 +1,10 @@
 # 🎮 Rock Paper Scissor Game
 A simple and interactive **Rock Paper Scissor Game** built using **HTML, CSS, and JavaScript**.  
 The game allows players to choose a move, track scores, use keyboard shortcuts, and even enable Auto-Play mode.
+---
+📸 Output Look
+
+<img width="626" height="631" alt="rps-output" src="https://github.com/user-attachments/assets/160803d9-1f68-42a2-8357-d01f50d82b9d" />
 
 ---
 
@@ -70,11 +74,3 @@ The game allows players to choose a move, track scores, use keyboard shortcuts, 
 ## 👨‍💻 Author
 **Mohamed Salih**  
 
-
-
-
-
-
-
-
-.png
