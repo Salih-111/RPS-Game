@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="pro-03-C.css">
+</head>
+
+<body>
+    <h1>Rock Paper and Scissors</h1>
+
+    <button class="icon-btn rock">
+        <img src="images/Rock-icon.png" class="icon">
+    </button>
+
+    <button class="icon-btn paper">
+        <img src="images/Paper-icon.png" class="icon">
+    </button>
+
+    <button class="icon-btn scissor">
+        <img src="images/Scissor-icon.png" class="icon">
+    </button>
+
+    <p class="js-result result"></p>
+    <p class="js-moves  moves"></p>
+    <p class="js-score score"></p>
+
+    <button onclick=" Score.Wins = 0; Score.Loose = 0; Score.Ties = 0;
+    localStorage.removeItem('score');
+    updateScore();" class="reset">Reset Score</button>
+
+    <button class="btn-auto auto" >Auto Play</button>
+    <button class="btn-auto stop" >Stop Auto Play</button>
+
+
+    <script src="pro-03-JS.js"></script>
+
+</body>
+
+</html>

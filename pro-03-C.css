@@ -1,0 +1,62 @@
+ body{
+    background-color: black;
+    color: white;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .icon{
+        height: 60px;
+    }
+
+    .icon-btn{
+        background-color: transparent; 
+        border: 3px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .result{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-top: 40px;
+    }
+
+    .moves{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;  
+    }
+
+    .move-icon{
+        background-color: transparent; 
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .score{
+        margin-top: 50px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter; 
+    }
+    
+    .reset,.btn-auto{
+        padding:10px 15px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold; 
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
